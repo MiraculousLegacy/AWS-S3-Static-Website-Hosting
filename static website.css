@@ -1,0 +1,123 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+
+    background-image:
+        linear-gradient(
+            rgba(10, 25, 47, 0.72),
+            rgba(10, 25, 47, 0.82)
+        ),
+        url("blue.jpeg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    min-height: 100vh;
+}
+
+/* Image in the top right corner */
+.corner-image {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+header {
+    background: rgba(24, 59, 86, 0.75);
+    color: white;
+    padding: 35px 120px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header p {
+    margin-top: 0;
+    color: #d9e8f5;
+}
+
+main {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 30px;
+
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    line-height: 1.7;
+}
+
+h2 {
+    color: #f4c46a;
+}
+
+button {
+    background: #e6a23c;
+    color: #14283d;
+    border: none;
+    padding: 12px 18px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #ffc766;
+}
+
+button:focus-visible {
+    outline: 2px solid white;
+    outline-offset: 3px;
+}
+
+#message {
+    font-weight: bold;
+    color: #bce8d2;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #d9e8f5;
+}
+
+@media (max-width: 600px) {
+    header {
+        padding: 85px 15px 25px;
+    }
+
+    main {
+        margin: 20px 15px;
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 26px;
+    }
+
+    .corner-image {
+        .corner-image {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    width: 140px;
+    height: 140px;
+    object-fit: contain;
+    border-radius: 10px;
+    }
+}
+}
